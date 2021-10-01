@@ -28,3 +28,36 @@
 .ex-4-square:hover {
     background-color: white;
 }
+
+.ex-5-square {
+    transition: 1s;
+}
+
+.ex-5-square:hover {
+   transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img {
+    transition: 2s;
+}
+
+.ex-7-img:hover {
+    filter:sepia(1);
+}
+
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter:saturate(3)
+}
