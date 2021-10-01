@@ -61,3 +61,13 @@
     border-radius: 20px;
     filter:saturate(3)
 }
+
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    transform: scale(1.5);
+    filter: grayscale(1);
+}
